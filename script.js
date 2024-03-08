@@ -38,6 +38,7 @@ del.addEventListener("click",()=>{
 
 let Evaluate = () =>{
     string = eval(string);
+    string = string.toFixed(2);
     string = string.toString();
     input.value = string;
 };
